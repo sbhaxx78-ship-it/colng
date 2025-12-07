@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>背景图网页示例</title>
+  <style>
+    /* 页面基础样式重置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* 背景图设置 */
+    body {
+      /* 替换成你本地图片的路径，或者图床链接 */
+      background-image: url("https://test.fukit.cn/autoupload/fr/Gv1HdSwD_95nFdkQhGvZ6Y2yDWTP7kMg5qEwj_eohTWyl5f0KlZfm6UsKj-HyTuv/20251207/V2DI/1079X1228/Screenshot_2025_1207_130406.png"); 
+      background-size: cover;   /* 覆盖整个页面 */
+      background-attachment: fixed; /* 固定背景不滚动 */
+      background-position: center;  /* 背景居中 */
+      min-height: 100vh; /* 确保页面占满屏幕高度 */
+    }
+    /* 可选：添加一个半透明遮罩，让内容更清晰 */
+    .content {
+      background-color: rgba(255, 255, 255, 0.7); /* 白色半透明背景 */
+      padding: 20px;
+      max-width: 800px;
+      margin: 50px auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 这里可以添加你的网页内容 -->
+  <div class="content">
+    <h1>colng</h1>
+    <p>背景图已经设置好啦~</p>
+  </div>
+</body>
+</html>
